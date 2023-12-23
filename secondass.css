@@ -15,13 +15,22 @@ body {
 img {
   height: 40px;
   width: 38.67px;
-  top: 
   }
 
   body {
     background-color: ghostwhite;
 
   }
+  
+
+.testing {
+  color: green !important;
+  background-color: #fff !important;
+}
+::selection {
+  background-color: blue;
+  color: white;
+}
 
 .form.container {
   display: flex;
@@ -71,4 +80,4 @@ button {
   background-color: #fff;
 }
 
-@media {max-width: 600px}
+/* @media {max-width: 600px} */
